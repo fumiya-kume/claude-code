@@ -8,10 +8,33 @@ This repository contains a Claude Code plugin (`kuu-claude-utils`) that provides
 
 ## Installation
 
-To use this plugin with Claude Code, clone this repository and configure Claude Code to load the plugin from the `.claude-plugin` directory.
+### From Claude Code (Recommended)
+
+You can install this plugin directly from Claude Code using the plugin management system:
+
+1. Add this repository as a marketplace:
+   ```
+   /plugin marketplace add fumiya-kume/claude-code
+   ```
+
+2. Install the plugin:
+   ```
+   /plugin install kuu-claude-utils@fumiya-kume/claude-code
+   ```
+
+3. Restart Claude Code to activate the plugin.
+
+### Manual Installation
+
+Alternatively, you can clone this repository and use it as a local marketplace:
 
 ```bash
 git clone https://github.com/fumiya-kume/claude-code.git
+```
+
+Then in Claude Code:
+```
+/plugin marketplace add ./claude-code
 ```
 
 ## Available Commands
