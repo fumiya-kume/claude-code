@@ -26,3 +26,7 @@ The command will:
 2. Analyze changes for AI-generated patterns
 3. Remove unnecessary additions
 4. Provide a brief 1-3 sentence summary of what was changed
+
+# Special thanks
+
+Inspired by https://x.com/ericzakariasson/status/1995671800643297542?s=20
