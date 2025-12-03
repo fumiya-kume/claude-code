@@ -15,11 +15,7 @@
       "version": "1.0.0",
       "author": {
         "name": "Kuu"
-      },
-      "license": "GPL-3.0",
-      "keywords": ["utilities", "tools", "personal", "Kuu"],
-      "category": "productivity",
-      "commands": "./commands"
+      }
     }
   ]
 }
