@@ -6,7 +6,7 @@
     "name": "Kuu"
   },
   "license": "GPL-3.0",
-  "keywords": ["utilities", "tools", "personal"],
+  "keywords": ["utilities", "tools", "personal", "Kuu"],
   "category": "productivity",
   "commands": "./commands",
   "agents": "./agents",
