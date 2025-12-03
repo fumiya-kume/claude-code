@@ -1,0 +1,13 @@
+{
+  "name": "deslop",
+  "version": "1.0.0",
+  "description": "Removes AI-generated code slop from code changes in the current branch",
+  "author": {
+    "name": "Kuu",
+    "email": "fumiya.kume@hotmail.com"
+  },
+  "repository": "https://github.com/fumiya-kume/claude-code",
+  "license": "GPL-3.0",
+  "keywords": ["code-cleanup", "refactoring", "ai-generated-code", "deslop"],
+  "commands": ["./"]
+}
