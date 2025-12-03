@@ -1,0 +1,14 @@
+{
+  "name": "kuu-claude-utils",
+  "description": "Kuu's personal Claude Code utilities and tools",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kuu"
+  },
+  "license": "GPL-3.0",
+  "keywords": ["utilities", "tools", "personal"],
+  "category": "productivity",
+  "commands": "./commands",
+  "agents": "./agents",
+  "skills": "./skills"
+}
