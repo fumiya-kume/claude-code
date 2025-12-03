@@ -7,5 +7,7 @@
   },
   "license": "MIT",
   "keywords": ["utilities", "tools", "personal"],
-  "category": "productivity"
+  "category": "productivity",
+  "commands": "./commands",
+  "agents": "./agents"
 }
