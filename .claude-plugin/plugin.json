@@ -1,0 +1,11 @@
+{
+  "name": "kuu-claude-utils",
+  "description": "Kuu's personal Claude Code utilities and tools",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kuu"
+  },
+  "license": "MIT",
+  "keywords": ["utilities", "tools", "personal"],
+  "category": "productivity"
+}
