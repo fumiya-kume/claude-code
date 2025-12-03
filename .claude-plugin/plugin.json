@@ -9,5 +9,6 @@
   "keywords": ["utilities", "tools", "personal"],
   "category": "productivity",
   "commands": "./commands",
-  "agents": "./agents"
+  "agents": "./agents",
+  "skills": "./skills"
 }
