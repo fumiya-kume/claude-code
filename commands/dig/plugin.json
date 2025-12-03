@@ -1,0 +1,13 @@
+{
+  "name": "dig",
+  "version": "1.0.0",
+  "description": "Clarify ambiguities in plans with structured questions",
+  "author": {
+    "name": "Kuu",
+    "email": "fumiya.kume@hotmail.com"
+  },
+  "repository": "https://github.com/fumiya-kume/claude-code",
+  "license": "GPL-3.0",
+  "keywords": ["planning", "questions", "clarification", "ambiguity", "dig"],
+  "commands": ["./"]
+}

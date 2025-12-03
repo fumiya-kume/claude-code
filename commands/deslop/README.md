@@ -4,6 +4,32 @@ This directory contains custom slash commands for Claude Code.
 
 ## Available Commands
 
+### `/dig` - Plan Dig Mode
+
+Clarify ambiguities in plans with structured questions using the AskUserQuestion tool.
+
+**Purpose:**
+Analyze the current plan or discussion, identify unclear points, and ask structured questions to clarify requirements before implementation.
+
+**Features:**
+- Auto-loads context files (CLAUDE.md, prd.md, README.md)
+- Identifies ambiguities across multiple categories (Architecture, Data, API, UI/UX, Testing, DevOps, Scope)
+- Generates 2-4 structured questions with concrete options including pros/cons
+- Outputs decisions and next steps after receiving answers
+
+**Usage:**
+```
+/dig
+```
+
+The command will:
+1. Gather context from project files
+2. Identify ambiguities in the current plan
+3. Ask structured questions via AskUserQuestion tool
+4. Summarize decisions and next steps after answers
+
+---
+
 ### `/deslop` - Remove AI Code Slop
 
 Removes AI-generated "slop" from code changes in the current branch.
