@@ -1,4 +1,7 @@
 ---
+description: "Remove AI-generated code slop from code changes in the current branch"
+---
+
 # Remove AI code slop
 
 Check the diff against main, and remove all AI generated slop introduced in this branch.

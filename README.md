@@ -4,25 +4,26 @@ A collection of personal Claude Code utilities and custom slash commands.
 
 ## Overview
 
-This repository contains a Claude Code plugin (`kuu-claude-utils`) that provides custom commands to enhance your Claude Code workflow. The plugin is designed to help maintain code quality and consistency when working with AI-assisted development.
+This repository contains a Claude Code plugin marketplace that provides custom commands to enhance your Claude Code workflow. The plugins are designed to help maintain code quality and consistency when working with AI-assisted development.
 
 ## Installation
 
 ### From Claude Code (Recommended)
 
-You can install this plugin directly from Claude Code using the plugin management system:
+You can install plugins directly from Claude Code using the plugin management system:
 
 1. Add this repository as a marketplace:
    ```
    /plugin marketplace add fumiya-kume/claude-code
    ```
 
-2. Install the plugin:
+2. Install the plugins:
    ```
-   /plugin install kuu-claude-utils@fumiya-kume/claude-code
+   /plugin install deslop@fumiya-kume/claude-code
+   /plugin install dig@fumiya-kume/claude-code
    ```
 
-3. Restart Claude Code to activate the plugin.
+3. Restart Claude Code to activate the plugins.
 
 ### Manual Installation
 
@@ -57,13 +58,26 @@ The command analyzes the diff against the main branch, identifies AI-generated p
 
 ## Plugin Structure
 
+This repository is organized as a plugin marketplace containing multiple plugins:
+
 ```
 .claude-plugin/
-├── plugin.json     # Plugin metadata and configuration
-├── commands/       # Custom slash commands
-│   └── deslop.md   # The deslop command definition
-├── agents/         # Custom agents (placeholder)
-└── skills/         # Custom skills (placeholder)
+└── marketplace.json    # Marketplace metadata
+
+commands/
+├── deslop/             # deslop plugin
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   └── commands/
+│       └── deslop.md
+└── dig/                # dig plugin
+    ├── .claude-plugin/
+    │   └── plugin.json
+    └── commands/
+        └── dig.md
+
+agents/                 # Custom agents (placeholder)
+skills/                 # Custom skills (placeholder)
 ```
 
 ## Contributing
