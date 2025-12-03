@@ -38,23 +38,14 @@ Then in Claude Code:
 /plugin marketplace add ./claude-code
 ```
 
-## Available Commands
+## Available Plugins
 
-### `/deslop` - Remove AI Code Slop
+| Plugin | Description |
+|--------|-------------|
+| [deslop](commands/deslop/) | Remove AI-generated "slop" from code changes |
+| [dig](commands/dig/) | Clarify ambiguities in plans with structured questions |
 
-Removes AI-generated "slop" from code changes in the current branch. This command helps maintain code quality by identifying and removing unnecessary additions that AI assistants sometimes introduce.
-
-**What it removes:**
-- Extra comments that a human wouldn't add or are inconsistent with the rest of the file
-- Unnecessary defensive checks or try/catch blocks that are abnormal for that area of the codebase
-- Any other style inconsistencies with the existing file
-
-**Usage:**
-```
-/deslop
-```
-
-The command analyzes the diff against the main branch, identifies AI-generated patterns, removes unnecessary additions, and provides a brief summary of changes made.
+See each plugin's README for detailed usage and features.
 
 ## Plugin Structure
 
@@ -68,13 +59,15 @@ commands/
 ├── deslop/             # deslop plugin
 │   ├── .claude-plugin/
 │   │   └── plugin.json
-│   └── commands/
-│       └── deslop.md
+│   ├── commands/
+│   │   └── deslop.md
+│   └── README.md
 └── dig/                # dig plugin
     ├── .claude-plugin/
     │   └── plugin.json
-    └── commands/
-        └── dig.md
+    ├── commands/
+    │   └── dig.md
+    └── README.md
 
 agents/                 # Custom agents (placeholder)
 skills/                 # Custom skills (placeholder)
