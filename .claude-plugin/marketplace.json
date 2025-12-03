@@ -9,15 +9,6 @@
   },
   "plugins": [
     {
-      "name": "kuu-claude-utils",
-      "source": "./",
-      "description": "Kuu's personal Claude Code utilities and tools",
-      "version": "1.0.0",
-      "author": {
-        "name": "Kuu"
-      }
-    },
-    {
       "name": "deslop",
       "source": "./commands/deslop",
       "description": "Removes AI-generated code slop from code changes in the current branch",
