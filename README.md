@@ -4,25 +4,26 @@ A collection of personal Claude Code utilities and custom slash commands.
 
 ## Overview
 
-This repository contains a Claude Code plugin (`kuu-claude-utils`) that provides custom commands to enhance your Claude Code workflow. The plugin is designed to help maintain code quality and consistency when working with AI-assisted development.
+This repository contains a Claude Code plugin marketplace that provides custom commands to enhance your Claude Code workflow. The plugins are designed to help maintain code quality and consistency when working with AI-assisted development.
 
 ## Installation
 
 ### From Claude Code (Recommended)
 
-You can install this plugin directly from Claude Code using the plugin management system:
+You can install plugins directly from Claude Code using the plugin management system:
 
 1. Add this repository as a marketplace:
    ```
    /plugin marketplace add fumiya-kume/claude-code
    ```
 
-2. Install the plugin:
+2. Install the plugins:
    ```
-   /plugin install kuu-claude-utils@fumiya-kume/claude-code
+   /plugin install deslop@fumiya-kume/claude-code
+   /plugin install dig@fumiya-kume/claude-code
    ```
 
-3. Restart Claude Code to activate the plugin.
+3. Restart Claude Code to activate the plugins.
 
 ### Manual Installation
 
@@ -37,33 +38,39 @@ Then in Claude Code:
 /plugin marketplace add ./claude-code
 ```
 
-## Available Commands
+## Available Plugins
 
-### `/deslop` - Remove AI Code Slop
+| Plugin | Description |
+|--------|-------------|
+| [deslop](commands/deslop/) | Remove AI-generated "slop" from code changes |
+| [dig](commands/dig/) | Clarify ambiguities in plans with structured questions |
 
-Removes AI-generated "slop" from code changes in the current branch. This command helps maintain code quality by identifying and removing unnecessary additions that AI assistants sometimes introduce.
-
-**What it removes:**
-- Extra comments that a human wouldn't add or are inconsistent with the rest of the file
-- Unnecessary defensive checks or try/catch blocks that are abnormal for that area of the codebase
-- Any other style inconsistencies with the existing file
-
-**Usage:**
-```
-/deslop
-```
-
-The command analyzes the diff against the main branch, identifies AI-generated patterns, removes unnecessary additions, and provides a brief summary of changes made.
+See each plugin's README for detailed usage and features.
 
 ## Plugin Structure
 
+This repository is organized as a plugin marketplace containing multiple plugins:
+
 ```
 .claude-plugin/
-├── plugin.json     # Plugin metadata and configuration
-├── commands/       # Custom slash commands
-│   └── deslop.md   # The deslop command definition
-├── agents/         # Custom agents (placeholder)
-└── skills/         # Custom skills (placeholder)
+└── marketplace.json    # Marketplace metadata
+
+commands/
+├── deslop/             # deslop plugin
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── commands/
+│   │   └── deslop.md
+│   └── README.md
+└── dig/                # dig plugin
+    ├── .claude-plugin/
+    │   └── plugin.json
+    ├── commands/
+    │   └── dig.md
+    └── README.md
+
+agents/                 # Custom agents (placeholder)
+skills/                 # Custom skills (placeholder)
 ```
 
 ## Contributing

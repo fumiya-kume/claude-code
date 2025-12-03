@@ -8,6 +8,5 @@
   },
   "repository": "https://github.com/fumiya-kume/claude-code",
   "license": "GPL-3.0",
-  "keywords": ["code-cleanup", "refactoring", "ai-generated-code", "deslop"],
-  "commands": ["./"]
+  "keywords": ["code-cleanup", "refactoring", "ai-generated-code", "deslop"]
 }
