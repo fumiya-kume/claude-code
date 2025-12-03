@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "kuu-claude-utils",
-      "source": ".",
+      "source": "./",
       "description": "Kuu's personal Claude Code utilities and tools",
       "version": "1.0.0",
       "author": {
@@ -19,9 +19,7 @@
       "license": "GPL-3.0",
       "keywords": ["utilities", "tools", "personal", "Kuu"],
       "category": "productivity",
-      "commands": "./commands",
-      "agents": "./agents",
-      "skills": "./skills"
+      "commands": "./commands"
     }
   ]
 }
