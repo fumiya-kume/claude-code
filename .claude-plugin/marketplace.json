@@ -27,6 +27,16 @@
         "name": "Kuu"
       },
       "keywords": ["planning", "questions", "clarification", "ambiguity", "dig"]
+    },
+    {
+      "name": "fix-ci",
+      "source": "./commands/fix-ci",
+      "description": "Automatically diagnose and fix CI failures using sub-agent exploration",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kuu"
+      },
+      "keywords": ["ci", "continuous-integration", "debugging", "automation", "github-actions"]
     }
   ]
 }
