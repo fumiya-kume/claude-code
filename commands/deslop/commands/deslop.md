@@ -1,5 +1,6 @@
 ---
 description: "Remove AI-generated code slop from code changes in the current branch"
+disable-model-invocation: true
 ---
 
 # Remove AI code slop
