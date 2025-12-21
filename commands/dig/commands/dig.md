@@ -1,5 +1,6 @@
 ---
 description: "Clarify ambiguities in plans with structured questions"
+disable-model-invocation: true
 allowed-tools:
   - Read
   - Grep
