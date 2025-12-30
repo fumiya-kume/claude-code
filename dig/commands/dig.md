@@ -1,6 +1,5 @@
 ---
 description: "Clarify ambiguities in plans with structured questions"
-disable-model-invocation: true
 allowed-tools:
   - Write
   - Edit
