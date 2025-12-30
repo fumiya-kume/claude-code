@@ -1,11 +1,10 @@
 ---
 description: "Remove AI-generated code slop from code changes in the current branch"
-disable-model-invocation: true
 ---
 
 # Remove AI code slop
 
-Check the diff against main, and remove all AI generated slop introduced in this branch.
+After code changes finished, Check the diff against main, and remove all AI generated slop introduced in this branch.
 
 This includes:
 - Extra comments that a human wouldn't add or is inconsistent with the rest of the file
