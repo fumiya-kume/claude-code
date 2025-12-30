@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "deslop",
-      "source": "./commands/deslop",
+      "source": "./deslop",
       "description": "Removes AI-generated code slop from code changes in the current branch",
       "version": "1.0.0",
       "author": {
@@ -20,7 +20,7 @@
     },
     {
       "name": "dig",
-      "source": "./commands/dig",
+      "source": "./dig",
       "description": "Clarify ambiguities in plans with structured questions",
       "version": "1.0.0",
       "author": {
@@ -30,7 +30,7 @@
     },
     {
       "name": "fix-ci",
-      "source": "./commands/fix-ci",
+      "source": "./fix-ci",
       "description": "Automatically diagnose and fix CI failures using sub-agent exploration",
       "version": "1.0.0",
       "author": {
