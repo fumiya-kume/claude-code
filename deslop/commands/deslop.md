@@ -1,10 +1,11 @@
 ---
-description: "Remove AI-generated code slop from code changes in the current branch"
+description: After code changes finished, Remove AI-generated code slop from code changes in the current branch
 ---
 
 # Remove AI code slop
 
-After code changes finished, Check the diff against main, and remove all AI generated slop introduced in this branch.
+Check the diff against main, and remove all AI generated slop introduced in this branch.
+You will launch the sub-agent to proceed this process
 
 This includes:
 - Extra comments that a human wouldn't add or is inconsistent with the rest of the file
