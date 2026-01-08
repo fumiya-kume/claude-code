@@ -37,11 +37,14 @@ The skill is automatically invoked by Claude when clarification is needed, or yo
 
 ## Allowed Tools
 
-This command uses the following tools:
+This skill uses the following tools:
+- Write
+- Edit
 - Read
 - Grep
 - Glob
 - TodoRead
+- TodoWrite
 - AskUserQuestion
 
 ## Plugin Structure
