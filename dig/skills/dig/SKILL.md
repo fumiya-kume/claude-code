@@ -60,8 +60,6 @@ After receiving user answers, output:
    - Details...
 </output_format>
 
----
-
 ## Important Notes
 
 - **Must use AskUserQuestion tool** - Not conversational questions
