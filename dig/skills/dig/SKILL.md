@@ -1,5 +1,8 @@
 ---
+name: dig
 description: "Clarify ambiguities in plans with structured questions"
+version: "2"
+context: fork
 allowed-tools:
   - Write
   - Edit
