@@ -15,6 +15,8 @@ This plugin uses a sub-agent to analyze CI failures, research solutions, and imp
 
 ## Usage
 
+The skill is automatically invoked by Claude when CI failures are detected, or you can manually invoke it:
+
 ```
 /fix-ci
 ```
@@ -57,6 +59,18 @@ After running, you'll receive a summary including:
 - Verification results
 - Additional recommendations
 
+## Allowed Tools
+
+This skill uses the following tools:
+- Bash
+- Read
+- Edit
+- Write
+- Grep
+- Glob
+- WebSearch
+- Task
+
 ## Requirements
 
 - GitHub CLI (`gh`) must be installed and authenticated
@@ -68,8 +82,9 @@ After running, you'll receive a summary including:
 fix-ci/
 ├── .claude-plugin/
 │   └── plugin.json
-├── commands/
-│   └── fix-ci.md
+├── skills/
+│   └── fix-ci/
+│       └── SKILL.md
 └── README.md
 ```
 

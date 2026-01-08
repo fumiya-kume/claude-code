@@ -15,6 +15,8 @@ This plugin helps maintain code quality by identifying and removing unnecessary 
 
 ## Usage
 
+The skill is automatically invoked by Claude when needed, or you can manually invoke it:
+
 ```
 /deslop
 ```
@@ -32,14 +34,26 @@ This plugin helps maintain code quality by identifying and removing unnecessary 
 3. Remove unnecessary additions
 4. Provide a brief 1-3 sentence summary of what was changed
 
+## Allowed Tools
+
+This skill uses the following tools:
+- Read
+- Edit
+- Write
+- Bash
+- Grep
+- Glob
+- Task
+
 ## Plugin Structure
 
 ```
 deslop/
 ├── .claude-plugin/
 │   └── plugin.json
-├── commands/
-│   └── deslop.md
+├── skills/
+│   └── deslop/
+│       └── SKILL.md
 └── README.md
 ```
 

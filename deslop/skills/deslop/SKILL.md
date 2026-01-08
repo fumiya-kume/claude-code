@@ -1,5 +1,16 @@
 ---
-description: After code changes finished, Remove AI-generated code slop from code changes in the current branch
+name: deslop
+description: "Remove AI-generated code slop from code changes in the current branch"
+version: "1.0.0"
+context: fork
+allowed-tools:
+  - Read
+  - Edit
+  - Write
+  - Bash
+  - Grep
+  - Glob
+  - Task
 ---
 
 # Remove AI code slop

@@ -1,5 +1,17 @@
 ---
+name: fix-ci
 description: "Automatically diagnose and fix CI failures in the current PR"
+version: "1.0.0"
+context: fork
+allowed-tools:
+  - Bash
+  - Read
+  - Edit
+  - Write
+  - Grep
+  - Glob
+  - WebSearch
+  - Task
 ---
 
 # CI Failure Auto-Fix
