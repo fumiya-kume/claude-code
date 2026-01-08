@@ -15,6 +15,8 @@ This plugin helps analyze the current plan or discussion, identify unclear point
 
 ## Usage
 
+The skill is automatically invoked by Claude when clarification is needed, or you can manually invoke it:
+
 ```
 /dig
 ```
@@ -48,8 +50,9 @@ This command uses the following tools:
 dig/
 ├── .claude-plugin/
 │   └── plugin.json
-├── commands/
-│   └── dig.md
+├── skills/
+│   └── dig/
+│       └── SKILL.md
 └── README.md
 ```
 
