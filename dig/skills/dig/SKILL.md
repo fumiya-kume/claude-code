@@ -9,7 +9,6 @@ allowed-tools:
   - Read
   - Grep
   - Glob
-  - TodoRead
   - TodoWrite
   - AskUserQuestion
 ---
