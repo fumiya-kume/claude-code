@@ -12,6 +12,7 @@ allowed-tools:
   - Glob
   - WebSearch
   - Task
+context: fork
 ---
 
 # CI Failure Auto-Fix
