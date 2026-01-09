@@ -9,6 +9,7 @@ allowed-tools:
   - TodoRead
   - TodoWrite
   - AskUserQuestion
+context: fork
 ---
 
 Read the current plan file and interview me in detail using the AskUserQuestionTool about literally anything.
