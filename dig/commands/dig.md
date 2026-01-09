@@ -1,5 +1,6 @@
 ---
 description: "Clarify ambiguities in plans with structured questions"
+version: "2.0.0"
 allowed-tools:
   - Write
   - Edit
