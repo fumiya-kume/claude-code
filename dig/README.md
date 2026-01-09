@@ -15,8 +15,6 @@ This plugin helps analyze the current plan or discussion, identify unclear point
 
 ## Usage
 
-The skill is automatically invoked by Claude when clarification is needed, or you can manually invoke it:
-
 ```
 /dig
 ```
@@ -37,14 +35,11 @@ The skill is automatically invoked by Claude when clarification is needed, or yo
 
 ## Allowed Tools
 
-This skill uses the following tools:
-- Write
-- Edit
+This command uses the following tools:
 - Read
 - Grep
 - Glob
 - TodoRead
-- TodoWrite
 - AskUserQuestion
 
 ## Plugin Structure
@@ -53,9 +48,8 @@ This skill uses the following tools:
 dig/
 ├── .claude-plugin/
 │   └── plugin.json
-├── skills/
-│   └── dig/
-│       └── SKILL.md
+├── commands/
+│   └── dig.md
 └── README.md
 ```
 
