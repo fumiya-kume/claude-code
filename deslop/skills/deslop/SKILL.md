@@ -11,6 +11,7 @@ allowed-tools:
   - Grep
   - Glob
   - Task
+context: fork
 ---
 
 # Remove AI code slop
