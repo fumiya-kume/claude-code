@@ -65,9 +65,6 @@ After receiving user answers, output:
 ## Important Notes
 
 - **Must use AskUserQuestion tool** - Not conversational questions
-- **Language selection**:
-  1. Check CLAUDE.md for language preference (e.g., "respond in Japanese")
-  2. Fallback: Use English if no preference found
 - Each option must include **pros/cons**
 - Use multiSelect sparingly (default: false)
 - Read CLAUDE.md before generating questions to align with project patterns
