@@ -23,8 +23,8 @@ You will follow the phases
 
 1. Clarify unclear point
 2. Ask user question for make decision
-4. Apply decision to plan
-5. Show the summary for user
+3. Apply decision to plan
+4. Show the summary for user
 
 Should be very in-depth and continue digging me until complete all of unclear point, then you will write the spec to the plan file.
 After phase 3, you revisit to the plan file, and analyze them, you must to rise the unclear point with moving to phase 2.
