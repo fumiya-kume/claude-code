@@ -21,9 +21,9 @@ Read the current plan file and interview me in detail using the AskUserQuestionT
 
 You will follow the phases
 
-1. Clearfy unclear point
-2. Ask user question for make dicision
-4. Apply dicision to plan
+1. Clarify unclear point
+2. Ask user question for make decision
+4. Apply decision to plan
 5. Show the summary for user
 
 Should be very in-depth and continue digging me until complete all of unclear point, then you will write the spec to the plan file.
