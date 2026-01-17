@@ -1,7 +1,7 @@
 ---
 name: clarify
 description: "Create detailed specifications by iteratively clarifying unclear points for Plan mode"
-version: "1.0.0"
+version: "1.0.2"
 context: fork
 allowed-tools:
   - Read

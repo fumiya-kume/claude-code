@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kuu-marketplace",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Kuu's personal Claude Code plugin marketplace",
   "owner": {
     "name": "Kuu",
@@ -16,7 +16,12 @@
       "author": {
         "name": "Kuu"
       },
-      "keywords": ["code-cleanup", "refactoring", "ai-generated-code", "deslop"]
+      "keywords": [
+        "code-cleanup",
+        "refactoring",
+        "ai-generated-code",
+        "deslop"
+      ]
     },
     {
       "name": "dig",
@@ -26,7 +31,13 @@
       "author": {
         "name": "Kuu"
       },
-      "keywords": ["planning", "questions", "clarification", "ambiguity", "dig"]
+      "keywords": [
+        "planning",
+        "questions",
+        "clarification",
+        "ambiguity",
+        "dig"
+      ]
     },
     {
       "name": "fix-ci",
@@ -36,17 +47,29 @@
       "author": {
         "name": "Kuu"
       },
-      "keywords": ["ci", "continuous-integration", "debugging", "automation", "github-actions"]
+      "keywords": [
+        "ci",
+        "continuous-integration",
+        "debugging",
+        "automation",
+        "github-actions"
+      ]
     },
     {
       "name": "clarify",
       "source": "./clarify",
       "description": "Create detailed specifications by iteratively clarifying unclear points through structured questions",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Kuu"
       },
-      "keywords": ["planning", "specification", "clarification", "plan-mode", "requirements"]
+      "keywords": [
+        "planning",
+        "specification",
+        "clarification",
+        "plan-mode",
+        "requirements"
+      ]
     }
   ]
 }
