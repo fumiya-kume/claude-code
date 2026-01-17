@@ -11,6 +11,7 @@ allowed-tools:
   - TodoWrite
   - AskUserQuestion
 context: fork
+agent: General-purpose
 ---
 
 Read the current plan file and interview me in detail using the AskUserQuestionTool about literally anything.
