@@ -13,6 +13,7 @@ allowed-tools:
   - Task
 context: fork
 agent: Explore
+model: sonnet
 ---
 
 # Remove AI code slop
