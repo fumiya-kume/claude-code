@@ -1,0 +1,12 @@
+{
+  "name": "clarify",
+  "version": "1.0.0",
+  "description": "Create detailed specifications by iteratively clarifying unclear points through structured questions",
+  "author": {
+    "name": "Kuu",
+    "email": "fumiya.kume@hotmail.com"
+  },
+  "repository": "https://github.com/fumiya-kume/claude-code",
+  "license": "GPL-3.0",
+  "keywords": ["planning", "specification", "clarification", "plan-mode", "requirements"]
+}

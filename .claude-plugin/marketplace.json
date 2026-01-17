@@ -37,6 +37,16 @@
         "name": "Kuu"
       },
       "keywords": ["ci", "continuous-integration", "debugging", "automation", "github-actions"]
+    },
+    {
+      "name": "clarify",
+      "source": "./clarify",
+      "description": "Create detailed specifications by iteratively clarifying unclear points through structured questions",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kuu"
+      },
+      "keywords": ["planning", "specification", "clarification", "plan-mode", "requirements"]
     }
   ]
 }
