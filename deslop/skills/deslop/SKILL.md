@@ -12,6 +12,7 @@ allowed-tools:
   - Glob
   - Task
 context: fork
+agent: Explore
 ---
 
 # Remove AI code slop
