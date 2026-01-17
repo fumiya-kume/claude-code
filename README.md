@@ -90,6 +90,8 @@ Automatically diagnose and fix CI failures using sub-agent exploration.
 
 **Purpose:**
 This command helps quickly identify and resolve CI pipeline failures by analyzing logs, identifying root causes, and applying fixes.
+It checks `gh` authentication up front (and may ask you to log in), then iterates by pushing fixes and waiting for CI to rerun until checks are green or human intervention is required.
+For the detailed workflow, see [`fix-ci/commands/fix-ci.md`](fix-ci/commands/fix-ci.md).
 
 **Usage:**
 ```
