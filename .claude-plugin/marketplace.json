@@ -59,7 +59,7 @@
       "name": "clarify",
       "source": "./clarify",
       "description": "Create detailed specifications by iteratively clarifying unclear points through structured questions",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Kuu"
       },
