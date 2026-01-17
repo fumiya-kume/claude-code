@@ -82,9 +82,8 @@ This skill uses the following tools:
 fix-ci/
 ├── .claude-plugin/
 │   └── plugin.json
-├── skills/
-│   └── fix-ci/
-│       └── SKILL.md
+├── commands/
+│   └── fix-ci.md
 └── README.md
 ```
 
