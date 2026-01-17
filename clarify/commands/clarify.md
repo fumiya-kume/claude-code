@@ -1,11 +1,7 @@
 ---
-name: clarify
 description: "Create detailed specifications by iteratively clarifying unclear points for Plan mode. Use when: After completing a plan when detailed requirements need clarification before implementation."
-version: "1.0.4"
+version: "1.0.5"
 context: fork
-agent: general-purpose
-argument-hint: [specification-topic]
-user-invocable: true
 allowed-tools:
   - Read
   - Write

@@ -1,6 +1,6 @@
 {
   "name": "clarify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create detailed specifications by iteratively clarifying unclear points through structured questions. Use when: After completing a plan when detailed requirements need clarification before implementation.",
   "author": {
     "name": "Kuu",
@@ -9,5 +9,5 @@
   "repository": "https://github.com/fumiya-kume/claude-code",
   "license": "GPL-3.0",
   "keywords": ["planning", "specification", "clarification", "plan-mode", "requirements"],
-  "skills": "./skills/"
+  "commands": "./commands/"
 }

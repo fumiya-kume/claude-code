@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kuu-marketplace",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Kuu's personal Claude Code plugin marketplace",
   "owner": {
     "name": "Kuu",
@@ -59,7 +59,7 @@
       "name": "clarify",
       "source": "./clarify",
       "description": "Create detailed specifications by iteratively clarifying unclear points through structured questions. Use when: After completing a plan when detailed requirements need clarification before implementation.",
-      "version": "1.0.3",
+      "version": "1.0.5",
       "author": {
         "name": "Kuu"
       },
