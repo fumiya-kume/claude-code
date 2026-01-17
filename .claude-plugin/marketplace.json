@@ -58,7 +58,7 @@
     {
       "name": "clarify",
       "source": "./clarify",
-      "description": "Create detailed specifications by iteratively clarifying unclear points through structured questions",
+      "description": "Create detailed specifications by iteratively clarifying unclear points through structured questions. Use when: After completing a plan when detailed requirements need clarification before implementation.",
       "version": "1.0.3",
       "author": {
         "name": "Kuu"
