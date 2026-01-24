@@ -47,17 +47,6 @@ Each todo includes:
 - **Why**: Purpose and context
 - **Done when**: Verification criteria
 
-## Allowed Tools
-
-This command uses the following tools:
-- Read
-- Write
-- Edit
-- Grep
-- Glob
-- TodoRead
-- TodoWrite
-
 ## Plugin Structure
 
 ```text
