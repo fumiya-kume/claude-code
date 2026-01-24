@@ -3,14 +3,6 @@ description: "Decompose complex tasks into detailed, actionable todos. Each todo
 version: "1.0.0"
 context: fork
 agent: General-purpose
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - TodoRead
-  - TodoWrite
 ---
 
 # Task Decomposition
