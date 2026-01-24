@@ -68,9 +68,9 @@ Each todo description should include:
 **Done when**: [Verification criteria]
 </description_template>
 
-### Step 5: Use TodoWrite Tool
+### Step 5: Write to todos
 
-Write the decomposed tasks using the TodoWrite tool with:
+Write the decomposed tasks to todos with:
 - Clear, actionable content
 - Proper status (pending for all new tasks)
 - Active form for progress display
