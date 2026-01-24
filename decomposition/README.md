@@ -1,0 +1,73 @@
+# decomposition
+
+Decompose complex tasks into detailed, actionable todos with rich descriptions.
+
+## Overview
+
+This plugin helps break down complex tasks into specific, achievable, and small todos. Each todo has a rich description that contains all the information needed to execute the task independently.
+
+## Installation
+
+```
+/plugin marketplace add fumiya-kume/claude-code
+/plugin install decomposition@fumiya-kume/claude-code
+```
+
+## Usage
+
+Invoke the command:
+
+```
+/decomposition
+```
+
+## How it works
+
+1. **Analyze** - Read the current context, plans, and related files
+2. **Identify components** - Break down the task into major components
+3. **Create todos** - Generate detailed todos with rich descriptions
+4. **Verify quality** - Ensure each todo is specific, achievable, and small enough
+
+## Todo Quality Criteria
+
+Each decomposed todo should be:
+
+- **Specific** - Clear action verb, exact locations, expected inputs/outputs
+- **Achievable** - Can be completed without external blockers
+- **Small enough** - Takes roughly 5-30 minutes, single responsibility
+
+## Rich Description Format
+
+Each todo includes:
+
+- **What**: Specific action to take
+- **Where**: File path or location
+- **How**: Brief implementation approach
+- **Why**: Purpose and context
+- **Done when**: Verification criteria
+
+## Allowed Tools
+
+This command uses the following tools:
+- Read
+- Write
+- Edit
+- Grep
+- Glob
+- TodoRead
+- TodoWrite
+
+## Plugin Structure
+
+```
+decomposition/
+├── .claude-plugin/
+│   └── plugin.json
+├── commands/
+│   └── decomposition.md
+└── README.md
+```
+
+## License
+
+GPL-3.0
