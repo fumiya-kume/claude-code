@@ -73,7 +73,7 @@ Each todo description should include:
 Write the decomposed tasks to todos with:
 - Clear, actionable content
 - Proper status (pending for all new tasks)
-- Active form for progress display
+- Use imperative mood starting with an action verb (e.g., "Create", "Implement")
 
 ## Output Format
 
