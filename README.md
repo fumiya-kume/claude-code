@@ -46,6 +46,7 @@ Then in Claude Code:
 | [deslop](deslop/) | Remove AI-generated "slop" from code changes |
 | [dig](dig/) | Clarify ambiguities in plans with structured questions |
 | [fix-ci](fix-ci/) | Automatically diagnose and fix CI failures |
+| [decomposition](decomposition/) | Decompose complex tasks into detailed, actionable todos |
 
 ## Commands
 
@@ -98,6 +99,24 @@ For the detailed workflow, see [`fix-ci/commands/fix-ci.md`](fix-ci/commands/fix
 /fix-ci
 ```
 
+### `/decomposition` - Task Decomposition
+
+Decompose complex tasks into detailed, actionable todos with rich descriptions.
+
+**Purpose:**
+This command helps break down complex tasks into specific, achievable, and small todos. Each todo has a rich description that contains all the information needed to execute the task independently.
+
+**Features:**
+- Analyzes current context, plans, and related files
+- Breaks down tasks into major components
+- Creates detailed todos with rich descriptions (What, Where, How, Why, Done when)
+- Ensures each todo is specific, achievable, and appropriately scoped (5-30 minutes)
+
+**Usage:**
+```
+/decomposition
+```
+
 ## Plugin Structure
 
 This repository is organized as a plugin marketplace containing multiple plugins:
@@ -125,6 +144,13 @@ fix-ci/                 # fix-ci plugin
 │   └── plugin.json
 ├── commands/
 │   └── fix-ci.md
+└── README.md
+
+decomposition/          # decomposition plugin
+├── .claude-plugin/
+│   └── plugin.json
+├── commands/
+│   └── decomposition.md
 └── README.md
 ```
 

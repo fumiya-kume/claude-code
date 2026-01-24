@@ -87,7 +87,7 @@ Write the decomposed tasks using the TodoWrite tool with:
 
 After decomposition, provide a summary:
 
-```
+```markdown
 ## Task Decomposition Summary
 
 ### Original Task

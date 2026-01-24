@@ -8,7 +8,7 @@ This plugin helps break down complex tasks into specific, achievable, and small 
 
 ## Installation
 
-```
+```bash
 /plugin marketplace add fumiya-kume/claude-code
 /plugin install decomposition@fumiya-kume/claude-code
 ```
@@ -17,7 +17,7 @@ This plugin helps break down complex tasks into specific, achievable, and small 
 
 Invoke the command:
 
-```
+```bash
 /decomposition
 ```
 
@@ -25,8 +25,9 @@ Invoke the command:
 
 1. **Analyze** - Read the current context, plans, and related files
 2. **Identify components** - Break down the task into major components
-3. **Create todos** - Generate detailed todos with rich descriptions
-4. **Verify quality** - Ensure each todo is specific, achievable, and small enough
+3. **Create todos** - Generate detailed todos for each component
+4. **Write rich descriptions** - Add What, Where, How, Why, Done when to each todo
+5. **Write todos** - Use TodoWrite tool to save the decomposed tasks
 
 ## Todo Quality Criteria
 
@@ -59,7 +60,7 @@ This command uses the following tools:
 
 ## Plugin Structure
 
-```
+```text
 decomposition/
 ├── .claude-plugin/
 │   └── plugin.json
