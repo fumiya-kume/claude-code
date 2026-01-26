@@ -75,7 +75,7 @@
       "name": "decomposition",
       "source": "./decomposition",
       "description": "Decompose complex tasks into detailed, actionable todos with rich descriptions. Each todo is specific, achievable, and small enough to execute independently.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Kuu"
       },
