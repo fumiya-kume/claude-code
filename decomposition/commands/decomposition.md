@@ -1,6 +1,6 @@
 ---
 description: "Decompose complex tasks into detailed, actionable todos. Each todo has a rich description that is executable from the description alone."
-version: "1.0.0"
+version: "1.1.0"
 context: fork
 agent: General-purpose
 ---
