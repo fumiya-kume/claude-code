@@ -2,6 +2,10 @@
 
 Decompose complex tasks into detailed, actionable todos with rich descriptions.
 
+|||
+|---|---|
+|<img alt="image" src="https://github.com/user-attachments/assets/e4c85464-d912-4940-9f5e-f8fb5a867e8a" />|<img alt="image" src="https://github.com/user-attachments/assets/592a742d-fe65-4f32-a0c3-ffab02d13173" />|
+
 ## Overview
 
 This plugin helps break down complex tasks into specific, achievable, and small todos. Each todo has a rich description that contains all the information needed to execute the task independently.
