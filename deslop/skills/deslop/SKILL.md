@@ -1,29 +1,50 @@
 ---
 name: deslop
-description: "Remove AI-generated code slop from code changes in the current branch"
+description: "Remove AI-generated code slop from code changes in the current branch. Use when cleaning up LLM-authored diffs that contain unnecessary comments, defensive checks, or style inconsistencies before merging."
 version: "1.0.0"
-context: fork
-allowed-tools:
-  - Read
-  - Edit
-  - Write
-  - Bash
-  - Grep
-  - Glob
-  - Task
-context: fork
-agent: Explore
-model: sonnet
+allowed-tools: "Read, Edit, Write, Bash, Grep, Glob, Task"
 ---
 
 # Remove AI code slop
 
-Check the diff against main, and remove all AI generated slop introduced in this branch.
-You will launch the sub-agent to proceed this process
+Identify and remove AI-generated artifacts from the current branch by comparing against main.
 
-This includes:
-- Extra comments that a human wouldn't add or is inconsistent with the rest of the file
-- Extra defensive checks or try/catch blocks that are abnormal for that area of the codebase (especially if called by trusted / validated codepaths)
-- Any other style that is inconsistent with the file
+## Workflow
 
-Report at the end with only a 1-3 sentence summary of what you changed
+### Step 1: Get changed files
+
+```bash
+git diff --name-only main...HEAD -- '*.ts' '*.js' '*.py' '*.go' '*.rs' '*.java'
+```
+
+### Step 2: Review each file for slop patterns
+
+For each changed file, read the full file and the diff (`git diff main...HEAD -- <file>`). Look for these patterns:
+
+**Unnecessary comments** — comments that restate the code or were not present in surrounding unchanged code:
+
+```diff
+- // Check if the user is authenticated
+  if (!user.isAuthenticated) {
+```
+
+**Excessive defensive checks** — try/catch blocks, null guards, or type checks that the surrounding codebase does not use in similar contexts:
+
+```diff
+- try {
+    await db.save(record);
+- } catch (error) {
+-   console.error('Failed to save record:', error);
+-   throw error;
+- }
+```
+
+**Style inconsistencies** — naming conventions, import ordering, or formatting that differs from the rest of the file (e.g., adding JSDoc where the file uses none).
+
+### Step 3: Apply fixes
+
+Use the Edit tool to remove or rewrite each identified pattern. Match the style of the surrounding unchanged code.
+
+### Step 4: Verify
+
+Run `git diff main...HEAD --stat` to confirm only intended changes remain. Report a 1–3 sentence summary of what changed.
