@@ -1,0 +1,55 @@
+{
+  "name": "kuu-marketplace",
+  "version": "1.0.0",
+  "description": "Cursor plugin marketplace: CI auto-fix, plan digging, and task decomposition as Cursor Skills (auto-trigger).",
+  "owner": {
+    "name": "Kuu",
+    "email": "fumiya.kume@hotmail.com"
+  },
+  "plugins": [
+    {
+      "name": "fix-ci",
+      "source": "./fix-ci/cursor",
+      "description": "Diagnose failing GitHub Actions checks on the current PR via gh CLI, explore logs/code with a read-only subagent, apply a minimal fix, push once, and summarize in the active plan.",
+      "version": "1.0.1",
+      "author": { "name": "Kuu" },
+      "keywords": [
+        "cursor",
+        "ci",
+        "github-actions",
+        "gh-cli",
+        "debugging",
+        "pull-request"
+      ]
+    },
+    {
+      "name": "dig",
+      "source": "./dig/cursor",
+      "description": "Stress-test a plan with assumption mapping and one structured question round; persist decisions to the active Cursor plan.",
+      "version": "3.0.0",
+      "author": { "name": "Kuu" },
+      "keywords": [
+        "cursor",
+        "planning",
+        "assumptions",
+        "risk",
+        "interview",
+        "dig"
+      ]
+    },
+    {
+      "name": "decomposition",
+      "source": "./decomposition/cursor",
+      "description": "Break a complex task into small, verifiable todos with rich descriptions and write them via the todo tool; append a summary to the active plan.",
+      "version": "1.1.0",
+      "author": { "name": "Kuu" },
+      "keywords": [
+        "cursor",
+        "planning",
+        "todos",
+        "task-breakdown",
+        "decomposition"
+      ]
+    }
+  ]
+}
