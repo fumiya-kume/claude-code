@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kuu-marketplace",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Kuu's personal Claude Code plugin marketplace",
   "owner": {
     "name": "Kuu",
@@ -12,7 +12,7 @@
       "name": "deslop",
       "source": "./deslop",
       "description": "Removes AI-generated code slop from code changes in the current branch",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Kuu"
       },
@@ -27,7 +27,7 @@
       "name": "dig",
       "source": "./dig",
       "description": "Deep exploratory interview to discover unknowns and strengthen plans",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "author": {
         "name": "Kuu"
       },
@@ -44,7 +44,7 @@
       "name": "fix-ci",
       "source": "./fix-ci",
       "description": "Automatically diagnose and fix CI failures using sub-agent exploration",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Kuu"
       },
@@ -60,7 +60,7 @@
       "name": "decomposition",
       "source": "./decomposition",
       "description": "Decompose complex tasks into detailed, actionable todos with rich descriptions. Each todo is specific, achievable, and small enough to execute independently.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Kuu"
       },

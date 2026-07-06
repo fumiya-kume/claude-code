@@ -1,6 +1,6 @@
 ---
 description: "Remove AI-generated code slop from code changes in the current branch"
-version: "1.0.0"
+version: "1.0.1"
 allowed-tools:
   - Bash
   - Read

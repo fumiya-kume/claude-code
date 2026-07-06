@@ -1,6 +1,6 @@
 {
   "name": "deslop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes AI-generated code slop from code changes in the current branch",
   "author": {
     "name": "Kuu",

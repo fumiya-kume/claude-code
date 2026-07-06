@@ -1,6 +1,6 @@
 {
   "name": "decomposition",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Decompose complex tasks into detailed, actionable todos with rich descriptions. Each todo is specific, achievable, and small enough to execute independently.",
   "author": {
     "name": "Kuu",
@@ -8,6 +8,5 @@
   },
   "repository": "https://github.com/fumiya-kume/claude-code",
   "license": "GPL-3.0",
-  "keywords": ["planning", "decomposition", "todos", "task-breakdown", "actionable"],
-  "commands": "./commands/"
+  "keywords": ["planning", "decomposition", "todos", "task-breakdown", "actionable"]
 }
