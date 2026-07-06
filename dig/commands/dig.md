@@ -1,13 +1,12 @@
 ---
 description: "Deep exploratory interview to discover unknowns and strengthen plans"
-version: "3.0.0"
+version: "3.0.1"
 allowed-tools:
   - Write
   - Edit
   - Read
   - Grep
   - Glob
-  - TodoRead
   - TodoWrite
   - AskUserQuestion
 context: fork
